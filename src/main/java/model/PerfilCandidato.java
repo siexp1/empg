@@ -20,7 +20,7 @@ public class PerfilCandidato {
     private String descricaoDeficiencia;
     private String profissao;
     private String site;
-    private String disponibilidadeParaViagem;
+    private boolean disponibilidadeParaViagem;
     private String video;
     private Curriculo curriculo;
     private List<RedeSocial> redesSocial;
@@ -31,7 +31,7 @@ public class PerfilCandidato {
             String endereco, String estado, String pais, String celular, 
             String sexo, String nomeSocial, boolean pessoaComDeficiencia, 
             String descricaoDeficiencia, String profissao, String site, 
-            String disponibilidadeParaViagem, String video, Curriculo curriculo, 
+            boolean disponibilidadeParaViagem, String video, Curriculo curriculo, 
             List<RedeSocial> redesSocial) {
         this.nome = nome;
         this.sobreNome = sobreNome;
